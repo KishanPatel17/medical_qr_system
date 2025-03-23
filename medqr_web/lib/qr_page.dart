@@ -7,7 +7,7 @@ class QRPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final profileUrl = "https://your-react-app.com/profile/$uid";
+    final profileUrl = "https://medicalqrsystem.web.app/profile/$uid";
 
     return Scaffold(
       appBar: AppBar(title: const Text("Emergency QR")),
