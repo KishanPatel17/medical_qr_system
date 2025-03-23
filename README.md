@@ -30,8 +30,7 @@ People with conditions like severe allergies, epilepsy, diabetes, or asthma ofte
 
 ## 🌐 Live Demo
 
-🔗 [User Web App – Create Profile + Get QR](https://your-flutter-app-link.web.app)  
-🔗 [Scanner View – Public Emergency Profile](https://your-public-profile-link.web.app)
+🔗 [User Web App – Create Profile + Get QR](https://medicalqrsystem.web.app)  
 
 _(Replace with your Firebase hosted URLs)_
 
