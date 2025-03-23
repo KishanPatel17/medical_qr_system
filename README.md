@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# 🩺 Scan to Save – Medical QR + AI Emergency Assistant
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> When you can’t speak for yourself, your data can.
 
-## Available Scripts
+**Scan to Save** is an AI-powered medical safety platform designed for real-world emergencies. It empowers users to store critical health data securely and lets bystanders access life-saving information instantly via a wearable QR code — no app or login required.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚨 Why It Matters
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+In emergencies, seconds matter — but most bystanders don’t know what to do.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+People with conditions like severe allergies, epilepsy, diabetes, or asthma often can’t speak for themselves in a crisis. We built Scan to Save so anyone nearby can simply scan a code and get the answers they need to help.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🧠 What It Does
 
-### `npm run build`
+- ✅ Users create a secure medical profile (Flutter Web)
+- ✅ QR code is generated, linking to their public emergency page
+- ✅ QR code can be worn (ring, sticker, tattoo)
+- ✅ Anyone scanning the code sees:
+  - Medical conditions
+  - Allergies
+  - Medications
+  - Emergency contacts
+  - Gemini AI-powered chatbot for emergency guidance
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🌐 Live Demo
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🔗 [User Web App – Create Profile + Get QR](https://your-flutter-app-link.web.app)  
+🔗 [Scanner View – Public Emergency Profile](https://your-public-profile-link.web.app)
 
-### `npm run eject`
+_(Replace with your Firebase hosted URLs)_
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🧱 Built With
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Flutter Web** – For the main medical profile and QR code app
+- **Firebase** – Authentication, Firestore database, Storage, Hosting
+- **React** – For the public profile view after scanning the QR
+- **Gemini AI** – Real-time medical guidance chatbot
+- `qr_flutter` – Flutter package to generate user QR codes
+- **Git + GitHub** – Version control and team collaboration
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🛠️ How to Run Locally
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### For the Flutter Web App
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+git clone https://github.com/KishanPatel17/medical_qr_system.git
+cd medical_qr_system
+flutter pub get
+flutter run -d chrome
