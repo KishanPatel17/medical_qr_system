@@ -52,7 +52,8 @@ function ProfilePage() {
                     </div>
                     <div style={styles.chatbotSection}>
                         <h2 style={styles.sectionHeader}>Medical Assistant</h2>
-                        <Chatbot />
+                        {/* Pass userData as a prop to Chatbot */}
+                        <Chatbot userData={userData} />
                     </div>
                 </div>
             ) : (
