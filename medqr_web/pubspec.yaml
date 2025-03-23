@@ -1,0 +1,42 @@
+name: medqr_web
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # iOS-style icons
+  cupertino_icons: ^1.0.8
+
+  # Firebase packages
+  firebase_core: ^2.25.2
+  firebase_auth: ^4.16.2
+  cloud_firestore: ^4.13.4
+
+  # QR code generator
+  qr_flutter: ^4.1.0
+
+  # Google Fonts
+  google_fonts: ^6.2.1
+
+  # Date formatting
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Uncomment if you add assets like images/fonts later
+  # assets:
+  #   - images/
