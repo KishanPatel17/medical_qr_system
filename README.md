@@ -32,8 +32,6 @@ People with conditions like severe allergies, epilepsy, diabetes, or asthma ofte
 
 🔗 [User Web App – Create Profile + Get QR](https://medicalqrsystem.web.app)  
 
-_(Replace with your Firebase hosted URLs)_
-
 ---
 
 ## 🧱 Built With
