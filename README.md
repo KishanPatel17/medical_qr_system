@@ -1,8 +1,8 @@
-# 🩺 Scan to Save – Medical QR + AI Emergency Assistant
+# 🩺 MedQR – Medical QR + AI Emergency Assistant
 
 > When you can’t speak for yourself, your data can.
 
-**Scan to Save** is an AI-powered medical safety platform designed for real-world emergencies. It empowers users to store critical health data securely and lets bystanders access life-saving information instantly via a wearable QR code — no app or login required.
+**MedQR** is an AI-powered medical safety platform designed for real-world emergencies. It empowers users to store critical health data securely and lets bystanders access life-saving information instantly via a wearable QR code — no app or login required.
 
 ---
 
@@ -10,7 +10,7 @@
 
 In emergencies, seconds matter — but most bystanders don’t know what to do.
 
-People with conditions like severe allergies, epilepsy, diabetes, or asthma often can’t speak for themselves in a crisis. We built Scan to Save so anyone nearby can simply scan a code and get the answers they need to help.
+People with conditions like severe allergies, epilepsy, diabetes, or asthma often can’t speak for themselves in a crisis. We built MedQR so anyone nearby can simply scan a code and get the answers they need to help.
 
 ---
 
