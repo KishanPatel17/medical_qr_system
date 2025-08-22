@@ -5,7 +5,7 @@
 **MedQR** is an AI-powered medical safety platform designed for real-world emergencies. It empowers users to store critical health data securely and lets bystanders access life-saving information instantly via a wearable QR code — no app or login required.
 
 ---
-
+ 
 ## 🚨 Why It Matters
 
 In emergencies, seconds matter — but most bystanders don’t know what to do.
